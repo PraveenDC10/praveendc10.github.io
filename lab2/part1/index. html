@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<title>Creepy crawlies!</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+<header>
+<nav>
+<ul>
+<li><a href="#beetles">Beetles</a></li>
+<li><a href="#true_bugs">True bugs</a></li>
+<li><a href="#butterflies_moths">Butterflies and moths</a></li>
+<li><a href="#flies_mosquitos">Flies and mosquitos</a></li>
+<li><a href="#bees_wasps_ants">Bees, wasps, and ants</a></li>
+<li><a href="#spiders">Spiders</a></li>
+</ul>
+</nav>
+<section>
+<h1>Creepy-crawlies splash</h1>
+
+<img src="brenmuffin-creepy-crawlies.jpg" alt="A collection of various detailed insects and creepy crawlies" width="800" height="400">
+
+<video controls width="400">
+  <source src="vids/cc-video.mp4" type="video/mp4">
+  <source src="vids/cc-video.webm" type="video/webm">
+  <p>Your browser doesn't support HTML5 video. Here is a <a href="vids/cc-video.mp4">link to the video</a> instead.</p>
+</video>
+
+<audio controls>
+  <source src="audio/cc-audio.mp3" type="audio/mp3">
+  <source src="audio/cc-audio.ogg" type="audio/ogg">
+  <p>Your browser doesn't support HTML5 audio. Here is a <a href="audio/cc-audio.mp3">link to the audio</a> instead.</p>
+</audio>
+
+</section>
+</header>
+
+<main>
+<p>In casual language, people use "bugs" to mean all sorts of small creepy-crawlies: insects, spiders, etc. However, "Bugs" (true bugs) are actually just one order of insects (Hemiptera). This page provides a summary of the main classes or groups of creepy-crawlies.</p>
+
+<article id="beetles">
+<h2>Beetles (Coleoptera)</h2>
+<p>With about 400,000 species, beetles are the largest of all orders, constituting almost 40% of described insects and 25% of all known animal life-forms. They are found in almost every habitat except the sea and the polar regions, and interact with their ecosystems in several ways: beetles often feed on plants and fungi, break down animal and plant debris, and eat other invertebrates.</p>
+</article>
+
+<article id="true_bugs">
+<h2>True Bugs (Hemiptera)</h2>
+<p>Hemiptera comprise around 50,000 to 80,000 species of groups such as the cicadas, aphids, planthoppers, leafhoppers, assassin bugs, shield bugs, and bed bugs. They range in size from 1 mm to around 15 cm, and share a common arrangement of sucking mouthparts. Most feed on plants, using their sucking mouthparts to extract plant sap, though some are hematophagous (feed on blood) or predators that feed on other insects or small invertebrates.</p>
+</article>
+
+<article id="butterflies_moths">
+<h2>Butterflies & Moths (Lepidoptera)</h2>
+<p>Lepidoptera is one of the most widely recognizable and popular insect orders in the world, encompassing more than 180,000 species. They show many variations of the basic body structure, and have wings covered in minute scales, which give them their distinctive colors and patterns. As caterpillars, they primarily feed on leaves, sometimes causing damage to crops and plants. As adults, butterflies and many moths are important pollinators, transferring pollen as they sip nectar from flowers. They are also ecologically vital as food sources for birds, bats, and other animals.</p>
+</article>
+
+<article id="flies_mosquitos">
+<h2>Flies & Mosquitoes (Diptera)</h2>
+<p>Diptera is a large order containing an estimated 1,000,000 species including horse-flies, crane flies, hoverflies, mosquitoes, and others, although only about 150,000 species have been described. They possess a single pair of wings for flight, with the hindwings reduced into advanced mechanosensory organs known as halteres, which act as high-speed sensors of rotational movement and allow dipterans to perform advanced aerial acrobatics. Diptera have a significant ecological and human impact; they are major pollinators, decomposers of organic matter, and vectors for serious diseases like malaria, yellow fever, and West Nile virus.</p>
+</article>
+
+<article id="bees_wasps_ants">
+<h2>Bees, Wasps, Ants (Hymenoptera)</h2>
+<p>Hymenoptera is a massive order of insects, comprising over 150,000 recognized species and many more remaining to be described. It includes sawflies, wasps, bees, and ants. Females typically have a special ovipositor for inserting eggs into hosts or otherwise inaccessible places, which is often modified into a stinger used for defense or predation. Many species are highly social, living in complex colonies with distinct castes (like workers, queens, and drones). They play crucial ecological roles as pollinators of flowering plants and as predators or parasites of other insects, making them essential for agriculture and ecosystem balance.</p>
+</article>
+
+<article id="spiders">
+<h2>Spiders (Araneae)</h2>
+<p>Spiders are air-breathing arthropods that have eight legs, chelicerae with fangs generally able to inject venom, and spinnerets that extrude silk. They are the largest order of arachnids and rank seventh in total species diversity among all orders of organisms, with over 48,000 species described. Many build intricate webs to trap insects, while others are active hunters that chase or ambush their food. Their silk is an incredibly strong and versatile material, used for webs, egg sacs, or safety lines. Spiders are found in nearly every habitat on Earth, from deserts to caves to homes. While some people fear them, very few species pose a danger to humans. In fact, spiders are highly beneficial because they help control insect populations, including pests.</p>
+</article>
+</main>
+</body>
+</html>
