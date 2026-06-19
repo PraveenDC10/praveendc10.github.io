@@ -1,0 +1,111 @@
+/* Rubric: Fonts applied via safe system fallback pairings for formal/trustworthy look */
+body {
+    font-family: 'Georgia', Times, serif;
+    font-size: 1rem;
+    line-height: 1.5; /* Rubric: line-height around 1.4-1.6 */
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.05rem; /* Rubric: Letter spacing to body text */
+}
+
+/* Rubric: Heading font specifically to h1, h2 and nav link text */
+h1, h2, .nav-menu a {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1rem; /* Rubric: Letter spacing to headings */
+}
+
+/* Rubric: Define font sizes using relative units (rem) */
+h1 {
+    font-size: 2.5rem;
+    text-align: center; /* Rubric: Center top-level heading */
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 1.75rem;
+    margin-bottom: 0; /* Rubric: Remove bottom margin from h2 */
+}
+
+/* Decorative border bars matching link schemes */
+.top-bar, .bottom-bar {
+    height: 8px;
+    background-color: #0284c7;
+}
+
+/* Rubric: Text indentation (2rem) on the first paragraph after each section heading */
+section h2 + p {
+    text-indent: 2rem;
+}
+
+/* Rubric: Link defaults, visited, focus, hover configuration */
+a {
+    color: #0284c7;
+    text-decoration: underline; /* Rubric: Underlined by default */
+}
+
+a:visited {
+    color: #4f46e5;
+}
+
+/* Rubric: Remove default focus outline from all links */
+a:focus {
+    outline: none;
+    background-color: #e0f2fe;
+}
+
+/* Rubric: Remove underline on hover or focus */
+a:hover, a:focus {
+    text-decoration: none;
+    color: #0369a1;
+}
+
+/* Rubric: External link icon generated cleanly using a standard data URI SVG background */
+a.external-link {
+    padding-right: 18px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%230284c7' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6'%3E%3C/path%3E%3Cpolyline points='15 3 21 3 21 9'%3E%3C/polyline%3E%3Cline x1='10' y1='14' x2='21' y2='3'%3E%3C/line%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+/* Rubric: List spacing adjustments to match paragraph lines and circle styles */
+.custom-list {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    list-style-type: circle; /* Rubric: Appropriate list style type */
+}
+
+.custom-list li {
+    margin-bottom: 0.5rem;
+}
+
+/* Rubric: Navigation Menu styled as buttons harmonized with visual style */
+.nav-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Rubric: Navigation links styled as full column width, centered text, uppercase via CSS */
+.nav-menu a {
+    display: block; /* Rubric: Clickable area fills entire list item */
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 0; /* Rubric: Adequate height and visually consistent spacing */
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    color: #0284c7;
+    text-decoration: none;
+    text-align: center; /* Rubric: Center text inside each link */
+    text-transform: uppercase; /* Rubric: Uppercase text via CSS */
+    font-weight: bold;
+}
+
+.nav-menu a:hover {
+    background-color: #0284c7;
+    color: white;
+}
